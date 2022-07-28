@@ -12,8 +12,16 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
+/**
+ * Authors: Miguel Da Silva, Basil Steitieh, Michael Prempeh.
+ * Controller Class for FXML File
+ */
 public class FileController extends RunApplication {
 
+    /**
+     * ArrayList<Text> myList =  Create a Text object to have a list to store in Grid
+     * GridPane myGrid = Pulled From FXML File
+     * */
     @FXML
     GridPane myGrid;
 
@@ -22,6 +30,14 @@ public class FileController extends RunApplication {
 
     public ArrayList<Text> myList;
 
+    /**
+     *  Once you've set default.fxml to properly look for FileController.java,
+     * you want to visit your button element and set its onAction attribute to a function inside the controller.
+     * imply put, your Controller's function is onHelloButtonClick()
+     *
+     * After set the button, we got to use FileChooser(),  to invoke file open dialogs for selecting single file ( showOpenDialog ).
+     */
+    
     @FXML
     protected void onHelloButtonClick() throws IOException {
         FileChooser fileChooser = new FileChooser();
