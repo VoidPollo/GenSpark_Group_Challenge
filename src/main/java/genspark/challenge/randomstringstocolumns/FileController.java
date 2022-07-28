@@ -31,7 +31,7 @@ public class FileController extends RunApplication {
     public ArrayList<Text> myList;
     
     /**
-    * Once you've set hello-view.fxml to properly look for HelloController.java,
+    *  Once you've set hello-view.fxml to properly look for HelloController.java,
     * you want to visit your button element and set its onAction attribute to a function inside the controller.
     * imply put, your Controller's function is onHelloButtonClick()
     *
