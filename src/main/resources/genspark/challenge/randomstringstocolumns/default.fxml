@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="genspark.challenge.randomstringstocolumns.FileController">
+   <top>
+      <GridPane fx:id="myGrid" alignment="CENTER" prefHeight="340.0" prefWidth="600.0" scaleShape="false" BorderPane.alignment="TOP_LEFT">
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+         </rowConstraints>
+         <columnConstraints>
+            <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+      </GridPane>
+   </top>
+   <left>
+      <AnchorPane prefHeight="46.0" prefWidth="599.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="myButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#onHelloButtonClick" text="Browse File" />
+            <Label fx:id="myLabel" layoutX="97.0" layoutY="18.0" text="Selected File: " />
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>
