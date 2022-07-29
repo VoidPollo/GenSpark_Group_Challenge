@@ -1,6 +1,6 @@
 # GenSpark_Group_Challenge
 
-**Team Members Fathi Zaru, Michael Prempeh and Basil Steitieh**
+**Team Members Fathi Zaru,  Miguel Da Silva, Michael Prempeh and Basil Steitieh**
 
 <h2>Challenge 1: Random Strings to Columns</h2>
 <h3> Goals</h3>
