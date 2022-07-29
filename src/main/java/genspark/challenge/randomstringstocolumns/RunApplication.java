@@ -7,7 +7,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 /**
- * Authors: Miguel Da Silva, Basil Steitieh, Michael Prempeh.
+ * Authors: Miguel Da Silva, Basil Steitieh, Michael Prempeh, Fathi Zaru.
  * Controller Class for FXML File
  */
 
