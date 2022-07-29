@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 /**
- * Authors: Miguel Da Silva, Basil Steitieh, Michael Prempeh.
+ * Authors: Miguel Da Silva, Basil Steitieh, Michael Prempeh, Fathi Zaru.
  * Controller Class for FXML File
  */
 public class FileController extends RunApplication {
